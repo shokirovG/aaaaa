@@ -5,7 +5,7 @@ import router from "./router";
 import 'element-plus/dist/index.css';
 import './assets/styles/style.css';
 const app = createApp(App);
-//TEST DEV
+//TEST MASTER 
 app.use(router);
 app.use(ElementPlus);
 app.mount("#app");
